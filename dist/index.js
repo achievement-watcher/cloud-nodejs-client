@@ -11,6 +11,6 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CloudClient = void 0;
-const CloudClient_1 = require("./lib/CloudClient");
+var CloudClient_1 = require("./lib/CloudClient");
 Object.defineProperty(exports, "CloudClient", { enumerable: true, get: function () { return CloudClient_1.CloudClient; } });
 __exportStar(require("./lib/Errors"), exports);

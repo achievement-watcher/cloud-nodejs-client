@@ -1,4 +1,2 @@
-import {CloudClient} from './lib/CloudClient';
-
-export {CloudClient}
+export {CloudClient} from './lib/CloudClient';
 export * from './lib/Errors';
