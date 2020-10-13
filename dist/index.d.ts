@@ -1,2 +1,3 @@
 import { CloudClient } from './lib/CloudClient';
-export { CloudClient };
+import * as CloudErrors from './lib/Errors';
+export { CloudClient, CloudErrors };

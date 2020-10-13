@@ -1,8 +1,8 @@
 {
   "name": "cloud-client",
   "version": "0.1.0",
-  "description": "",
-  "main": "dist/index.js",
+  "description": "Node.js SDK for Cloud",
+  "main": "dist",
   "scripts": {
     "build": "tsc && ncp src/types dist/types",
     "build:clean": "rimraf dist && tsc && ncp src/types dist/types",
