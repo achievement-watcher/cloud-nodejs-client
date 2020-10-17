@@ -1,10 +1,12 @@
 export interface Achievement {
     name: string;
-    defaultvalue: number;
+    displayName: string;
+    description: string;
     hidden: 0 | 1;
     icon: string;
     icongray: string;
 }
+
 export interface CloudResponse {
     error: string | null;
     data: CloudSchema | null;
@@ -37,6 +39,7 @@ export interface GameSchema {
         header?: string;
         background?: string;
         portrait?: string;
+        hero?: string;
         icon?: string;
     }
     achievement: {
